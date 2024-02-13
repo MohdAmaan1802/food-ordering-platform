@@ -1,4 +1,8 @@
-.header {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .header {
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
@@ -21,21 +25,20 @@
 .nav-items > ul > li {
   padding: 10px;
   margin: 10px;
-}
+} */
 /* .logo-container {
   display: flex;
   flex-wrap: wrap;
 } */
-.res-container {
+/* .res-container {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-.res-card {
+/* .res-card {
   margin: 5px;
   padding: 5px;
   width: 200px;
-  /* height: 450px; */
 }
 .res-card:hover {
   cursor: pointer;
@@ -52,3 +55,30 @@
   margin: 10px;
   cursor: pointer;
 }
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.login {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+}
+
+.user-card{
+  padding:10px
+  border: 1px solid black;
+  
+} */
